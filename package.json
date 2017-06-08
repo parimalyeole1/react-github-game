@@ -1,0 +1,24 @@
+{
+  "name": "github-battle",
+  "version": "1.0.0",
+  "description": "This is one of project for lerning React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parimalyeole1/react-github-game.git"
+  },
+  "keywords": [
+    "React",
+    "webpack",
+    "react-router"
+  ],
+  "author": "Parimal Yeole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parimalyeole1/react-github-game/issues"
+  },
+  "homepage": "https://github.com/parimalyeole1/react-github-game#readme"
+}
