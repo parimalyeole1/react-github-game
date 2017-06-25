@@ -7,6 +7,7 @@ var NavLink = ReactRouter.NavLink;
 
 var api = require('./../utils/api');
 var PlayerPreview = require('./PlayerPreview');
+var Loading = require('./Loading');
 //components
 
 
@@ -93,7 +94,7 @@ class Result extends React.Component {
         let loading = this.state.loading;
 
         if (loading === true) {
-            return <p>Loading ...</p>
+            return <Loading />
         }
 
         if (error) {

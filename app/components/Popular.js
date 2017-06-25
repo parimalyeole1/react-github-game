@@ -1,6 +1,7 @@
 var React = require('react');
 var PropTypes = require('prop-types');
 var api = require('./../utils/api');
+var Loading = require('./Loading');
 
 //Stateless React Component
 //#01
@@ -102,7 +103,7 @@ class Popular extends React.Component {
                     selectedLanguage={this.state.selectedLanguage}
                     onSelectLang={this.updateLanguage} />
                 { !this.state.repos
-                  ? <p>Loading...</p>
+                  ? <Loading />
                   : <RepoGrids repos={this.state.repos}/>
                  }
                 
